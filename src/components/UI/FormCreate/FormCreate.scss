@@ -1,0 +1,19 @@
+.form-body{
+    // max-width: 480px;
+    width: 100%;
+    padding: 16px 0;
+    .g-text-input__content{
+        .g-text-input__label{
+            top: -30px;
+            left: -10px;
+        }
+        .g-text-input__control {
+            padding-inline-start: 10px !important;
+        }
+    }
+    .g-select-control__label{
+        position: absolute;
+        top: -20px;
+        left: 0;
+    }
+}

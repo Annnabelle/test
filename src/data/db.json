@@ -1,0 +1,147 @@
+{
+  "clients": [
+    {
+      "firstName": "Валерий",
+      "lastName": "Семенов",
+      "gender": 0,
+      "phone": "+998921234567",
+      "email": "examp2le@gmail.com",
+      "birthDate": "2000-03-15T00:00:00.000Z",
+      "address": "Neverland Street, 37",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "firstName": "Ивана",
+      "lastName": "Иванова",
+      "gender": 1,
+      "phone": "+998971234567",
+      "email": "example@gmail.com",
+      "birthDate": "2000-03-06T00:00:00.000Z",
+      "address": "Neverland Street, 34"
+    },
+    {
+      "firstName": "ertyuiop",
+      "lastName": "ghjkl;'",
+      "gender": "",
+      "phone": "456446",
+      "email": "dfghjkl;lkjhg",
+      "birthDate": "2024-03-06T19:00:00.000Z",
+      "address": "fghjkl;lkjhgtr",
+      "id": "514c"
+    },
+    {
+      "id": "042a",
+      "firstName": "rtfhgjk",
+      "lastName": "gdfhgj",
+      "gender": "",
+      "phone": "",
+      "email": "",
+      "birthDate": "2024-03-05T19:00:00.000Z",
+      "address": ""
+    },
+    {
+      "id": "2d85",
+      "firstName": "aewretyu",
+      "lastName": "ewretyrut",
+      "gender": "0",
+      "phone": "teyrut",
+      "email": "retyrut",
+      "birthDate": "",
+      "address": "etyrutiy"
+    }
+  ],
+  "visits": [
+    {
+      "id": "1",
+      "clientId": "1",
+      "type": "delivery",
+      "billNumber": "K1",
+      "amount": 1500000,
+      "paid": 1000000,
+      "debt": 500000,
+      "date": "2024-02-20T00:00:00.000Z",
+      "status": "debt"
+    },
+    {
+      "id": "2",
+      "clientId": "1",
+      "type": "visit",
+      "billNumber": "K2",
+      "amount": 1500000,
+      "paid": 1500000,
+      "debt": 0,
+      "date": "2024-02-20T00:00:00.000Z",
+      "status": "paid"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "clientId": "1",
+      "date": "2024-02-20T14:00:00.000Z",
+      "text": "Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности представляет собой"
+    },
+    {
+      "id": "9dab",
+      "clientId": "1",
+      "text": "sdsfhgjkhgfds"
+    },
+    {
+      "id": "d402",
+      "clientId": "1",
+      "text": "fdsddfdshjehdgsd",
+      "date": "2024-03-05T08:03:47.018Z"
+    },
+    {
+      "id": "070c",
+      "clientId": "1",
+      "text": "rytuyilkjhdgsf",
+      "date": "2024-03-05T08:03:57.553Z"
+    },
+    {
+      "id": "94c3",
+      "clientId": null,
+      "text": "wuiy",
+      "date": "2024-03-05T09:08:07.565Z"
+    },
+    {
+      "id": "ce30",
+      "clientId": "2d85",
+      "text": "fghjkl;';lkjhgfghjkl;'",
+      "date": "2024-03-05T09:29:34.019Z"
+    },
+    {
+      "id": "7b2d",
+      "clientId": "2d85",
+      "text": "fghjkl;lkjhghj",
+      "date": "2024-03-05T09:31:24.371Z"
+    }
+  ],
+  "dates": [
+    {
+      "id": "1",
+      "clientId": "1",
+      "name": "День рождения",
+      "date": "2024-02-20T14:00:00.000Z"
+    },
+    {
+      "name": "День святого енота",
+      "date": "2024-04-26T14:00:00.000Z",
+      "clientId": "1",
+      "id": "2"
+    },
+    {
+      "id": "cc56",
+      "name": "456",
+      "date": "2024-03-20T19:00:00.000Z",
+      "clientId": "1"
+    },
+    {
+      "id": "aeeb",
+      "name": "qtwehrwqtw",
+      "date": "2024-03-12T19:00:00.000Z",
+      "clientId": null
+    }
+  ]
+}

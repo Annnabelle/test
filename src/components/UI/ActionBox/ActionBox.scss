@@ -1,0 +1,41 @@
+.action-box{
+    max-width: 480px;
+    width: 100%;
+    .g-text-input__content{
+        .g-text-input__label{
+            top: -30px;
+            left: -10px;
+        }
+        .g-text-input__control {
+            padding-inline-start: 10px !important;
+        }
+    }
+    .g-select-control__label{
+        position: absolute;
+        top: -20px;
+        left: 0;
+    }
+
+    .g-text-area_view_normal {
+        display: flex;
+        flex-direction: column-reverse;
+        .g-outer-additional-content{
+            margin-bottom: 4px;
+            display: block;
+        }
+    }
+
+    .g-text-area_size_xl{
+        .g-text-area__control{
+            width: 420px;
+            height: 120px !important;
+        }
+    }
+}
+
+.btns{
+    .bg-red{
+        background: rgba(233, 3, 58, 1);
+        color: white;
+    }
+}

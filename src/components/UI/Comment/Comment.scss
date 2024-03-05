@@ -1,0 +1,11 @@
+.comment{
+    .g-user-label_view_outlined{
+        &:after{
+            border: none;
+        }
+    }
+    
+    .message{
+        background: rgba(0, 0, 0, 0.05);
+    }
+}

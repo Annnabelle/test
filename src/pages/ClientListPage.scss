@@ -1,0 +1,15 @@
+.clients-page{
+    margin: 40px 0;
+    .search-input{
+        max-width: 750px;
+        width: 100%;
+    }
+    .select-input{
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .test{
+        width: calc((100% - 40px) / 3);
+    }
+}

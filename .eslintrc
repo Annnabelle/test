@@ -1,0 +1,7 @@
+{
+    // "extends": ["@gravity-ui/eslint-config"],
+    "root": true,
+    "parserOptions": {
+        "project": ["./tsconfig.json"]
+    }
+}

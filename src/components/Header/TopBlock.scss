@@ -1,0 +1,38 @@
+.top-block{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 100%;
+    .top-block-items{
+        display: flex;
+        align-items: center;
+        // width: 33.33333%;
+    }
+    .select-menu{
+        margin-left: 38px;
+        background: rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+        .g-select-control__button{
+            &::before{
+                border: none;
+                border-radius: 3px;
+            }
+            .g-select-control__placeholder{
+                color: #fff
+            }
+        }
+        .g-select-control__chevron-icon {
+            color: white;
+        }
+    }
+    .yc-label_theme_success{
+        border-radius: 9px;
+        color: #30AA6E;
+    }
+
+    .g-user-label_view_outlined{
+        &:after{
+            border: 1px solid white;
+        }
+    }
+}

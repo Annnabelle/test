@@ -1,0 +1,14 @@
+.select-lang{
+    background: transparent;
+    .g-select-control__button{
+        &::before{
+            border: none;
+        }
+        .g-select-control__placeholder{
+            color: #fff
+        }
+    }
+    .g-select-control__chevron-icon{
+        color: white;
+    }
+}
